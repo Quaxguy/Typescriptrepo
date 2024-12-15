@@ -1,0 +1,11 @@
+Step 1: What is State?
+In React, state is an object that holds information about the component that can change over time. Unlike props, which are passed from parent to child, state is local to the component.
+
+State is managed within the component using the useState hook.
+State changes trigger re-renders, meaning the UI updates automatically when the state changes.
+Syntax of useState
+
+const [stateVariable, setStateFunction] = useState(initialValue);
+stateVariable: The current value of the state.
+setStateFunction: A function to update the state.
+initialValue: The default value of the state when the component loads.

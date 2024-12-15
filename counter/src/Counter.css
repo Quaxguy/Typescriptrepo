@@ -1,0 +1,68 @@
+/* Counter.css */
+
+/* Center the entire app */
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Counter display */
+  .counter {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 20px 0;
+    transition: color 0.3s ease;
+  }
+  
+  .counter.positive {
+    color: green;
+  }
+  
+  .counter.negative {
+    color: red;
+  }
+  
+  .counter.neutral {
+    color: black;
+  }
+  
+  /* Button styles */
+  .button-group {
+    display: flex;
+    gap: 15px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Reset button - distinct color */
+  button.reset {
+    background-color: #dc3545;
+  }
+  
+  button.reset:hover {
+    background-color: #a71d2a;
+  }
+  
